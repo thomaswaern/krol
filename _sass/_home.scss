@@ -1,0 +1,20 @@
+.home{
+	
+	margin-top:-140px;
+	position:relative;
+	text-align:center;
+
+	.me{
+		text-align: center;
+		padding: 30px 0 0;
+		color:#96dbec;
+		img{
+			border-radius:50%;
+			width:180px;
+			height:180px;
+			border:10px solid $background-color;
+			margin-bottom:20px;
+		}
+	}
+
+}

@@ -1,14 +1,16 @@
 .banner{
 
-	background-image:url(../img/bridge.jpg);
+	background-image:url(../assets/bridge2.jpg);
 	background-repeat: no-repeat;
-	background-size:cover;
-	//background-attachment:fixed;
-	background-position:center 20%;
+	background-size:100%;
+	background-attachment:fixed;
+	background-position:center top;
 	color:white;
+	position:relative;
+	text-align:center;
 
 	.wrapper{	
-		padding:15% 20%;
+		padding:15% 20% 35%;
 	}
 
 	.banner-title{
@@ -28,5 +30,19 @@
 		font-style:normal;
 		font-weight:bold;
 	}
+
+	&:after{
+		content:'';
+		display:block;
+		position:absolute;
+		bottom:0;
+		left:0;
+		border-width: 230px 0 0 3880px;
+		border-color: transparent transparent transparent $background-color;
+		border-style: solid solid solid dashed;
+	
+	}
+	
+	
 
 }

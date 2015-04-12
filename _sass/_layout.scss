@@ -94,8 +94,11 @@
  * Site footer
  */
 .site-footer {
-
+    text-align: center;
+    background:#96dbec;
     padding: $spacing-unit 0;
+    position:relative;
+
 }
 
 .footer-heading {
