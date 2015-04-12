@@ -1,0 +1,32 @@
+.banner{
+
+	background-image:url(../img/bridge.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	//background-attachment:fixed;
+	background-position:center 20%;
+	color:white;
+
+	.wrapper{	
+		padding:15% 20%;
+	}
+
+	.banner-title{
+		font-size:100px;
+		line-height:1.2em;
+		font-family: 'Chewy', cursive;
+		letter-spacing: 1.2px;
+	}
+
+	.subject{
+
+		font-size:30px;
+		line-height:1.35em;
+	}
+
+	em{
+		font-style:normal;
+		font-weight:bold;
+	}
+
+}
