@@ -14,17 +14,20 @@
     right:0;
     z-index:999;
     height:40px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+
 
 }
 
 .site-title {
     font-size: 26px;
     line-height: 56px;
-    letter-spacing: -1px;
+    letter-spacing: 2px;
     margin-bottom: 0;
     float: left;
     color:white;
     padding:0 20px;
+    font-family: 'Chewy', cursive;
 
     &,
     &:visited {

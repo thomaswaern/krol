@@ -4,23 +4,26 @@
 	background-repeat: no-repeat;
 	background-size:cover;
 	padding-top:40px;
-	background-position:center bottom;
+	background-position:center top;
 	color:white;
 	overflow-x:hidden;
 	position:relative;
 	text-align:center;
 	max-height:100%;
 
-
 	@include media-query($on-palm) {
-		background-size:100%;
+		//background-size:100%;
 		background-attachment:fixed;
-		background-position:center top;
-
+		background-position:center center;
 	}
 
 	.wrapper{	
-		padding:15% 20% 35%;
+
+		padding:15% 20% 45%;
+
+		@include media-query($on-palm) {
+			padding:15% 20% 15%;
+		}
 	}
 
 	.banner-title{
@@ -48,8 +51,5 @@
 		font-style:normal;
 		font-weight:bold;
 	}
-
-	
-	
 
 }
