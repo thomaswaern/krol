@@ -1,5 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,400|Chewy);
 
+#preloadedImages{
+  width: 0px;
+  height: 0px;
+  display: inline;
+  background-image: url(../assets/krol2.jpg);
+}
+
+
 /**
  * Reset some basic elements
  */
@@ -27,12 +35,7 @@ body {
     }
 }
 
-#preloadedImages{
-  width: 0px;
-  height: 0px;
-  display: inline;
-  background-image: url(../assets/krol2.jpg);
-}
+
 
 
 /**
