@@ -137,8 +137,12 @@
     font-size:0.8em;
 
     .email, .phone{
-        font-weight:bold;
+
         display:inline-block;
+
+        &:hover, &:visited{
+            color:white;
+        }
     }
 
 }
