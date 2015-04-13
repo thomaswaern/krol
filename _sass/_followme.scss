@@ -7,19 +7,27 @@
 		
 		a{
 			border-radius:50%;
-			border:1px solid white;
+			background: white;
 			width:30px;
 			line-height:30px;
 			height:30px;
 			text-align: center;
 			display:inline-block;
 
+			&:hover, &:active, &:focus{
+		        background:rgba(255,255,255,0.4);
+		        color:white;
+		        svg *{
+					fill:white;
+				}
+		    }
+
 			svg *{
-				fill:white;
+				fill:$text-color;
 			}
 
-			 &:hover, &:active, &:focus{
+			/*  &:hover, &:active, &:focus{
 		        background:rgba(255,255,255,0.2);
-		    }
+		    } */
 		}
 	}
