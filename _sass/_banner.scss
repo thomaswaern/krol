@@ -3,8 +3,8 @@
 	background-image:url(../assets/bridge2.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-attachment:fixed;
-	background-position:center top;
+	padding-top:40px;
+	background-position:right bottom;
 	color:white;
 	overflow:hidden;
 	position:relative;
@@ -12,6 +12,8 @@
 
 	@include media-query($on-palm) {
 		background-size:100%;
+		background-attachment:fixed;
+		background-position:center top;
 	}
 
 	.wrapper{	
@@ -50,7 +52,7 @@
 		position:absolute;
 		bottom:0;
 		left:0;
-		border-width: 60px 0 0 3880px;
+		border-width: 80px 0 0 1200px;
 		border-color: transparent transparent transparent $background-color;
 		border-style: solid solid solid dashed;
 	
@@ -58,10 +60,7 @@
 	
 	@include media-query($on-palm){
 		&:after{
-
 			border-width: 230px 0 0 3880px;
-
-		
 		}
 	}
 	
