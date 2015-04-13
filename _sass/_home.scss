@@ -20,7 +20,7 @@
 			margin-bottom: 0;
 		}
 
-		img{
+		img, img:active, img:focus{
 			border-radius:50%;
 			width:180px;
 			height:180px;
@@ -29,7 +29,7 @@
 			-webkit-user-select: none;
 			-webkit-touch-callout: none;  
 
-			&:hover, &:active{
+			&:hover{
 				content:url("../assets/krol2.jpg");
 			}
 		}

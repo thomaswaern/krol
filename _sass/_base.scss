@@ -31,14 +31,10 @@ body {
     -webkit-text-size-adjust: 100%;
     letter-spacing:0.02em;
 
-
     @include media-query($on-laptop) {
         font-size: $base-font-size;
     }
 }
-
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -49,8 +45,6 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
-
 
 /**
  * Images
