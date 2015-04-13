@@ -176,6 +176,26 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    position:relative;
+    &:before{
+        content:'';
+        display:block;
+        position:absolute;
+        top:-80px;
+        left:0;
+        border-width: 80px 0 0 1200px;
+        border-color: transparent transparent transparent $background-color;
+        border-style: solid solid solid dashed;    
+    }
+    
+    @include media-query($on-palm){
+        &:before{
+            top:-230px;
+            left:0;
+            border-width: 230px 0 0 3880px;
+        }
+    }
+
 }
 
 .page-heading {
