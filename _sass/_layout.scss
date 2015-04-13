@@ -177,6 +177,7 @@
 .page-content {
     padding: $spacing-unit 0;
     position:relative;
+    overflow-x: :hidden;
     &:before{
         content:'';
         display:block;
