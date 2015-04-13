@@ -26,8 +26,10 @@
 			height:180px;
 			border:10px solid darken($background-color, 4%);
 			margin-bottom:20px;
+			-webkit-user-select: none;
+			-webkit-touch-callout: none;  
 
-			&:hover{
+			&:hover, &.touchdown{
 				content:url("../assets/krol2.jpg");
 			}
 		}
