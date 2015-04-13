@@ -17,7 +17,7 @@
         position:absolute;
         bottom:0;
         left:0;
-        border-width: 90px 0 0 600px;
+        border-width: 90px 0 0 900px;
         border-color: transparent transparent transparent $background-color;
         border-style: solid solid solid dashed;    
     }
@@ -25,7 +25,7 @@
 
 
 	@include media-query($on-laptop) {
-		background-size:100%;
+		background-size:130%;
 		background-attachment:fixed;
 		height:100%;
 		padding-bottom:180px;
@@ -34,6 +34,10 @@
 	        border-width: 180px 0 0 3200px;	        
 	    }
 	    
+	}
+
+	@include media-query($on-laptop) {
+		background-size:130%;
 	}
 
 
@@ -56,7 +60,7 @@
 		font-family: 'Chewy', cursive;
 		letter-spacing: 1.2px;
 
-		@include media-query($on-palm) {
+		@include media-query($on-laptop) {
 			font-size:100px;
 		}
 	}
