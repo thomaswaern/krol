@@ -15,12 +15,16 @@ dl, dd, ol, ul, figure {
  */
 body {
     font-family: $base-font-family;
-    font-size: $base-font-size;
+    font-size: $small-font-size;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+
+    @include media-query($on-laptop) {
+        font-size: $base-font-size;
+    }
 }
 
 /**
@@ -44,7 +48,7 @@ img {
 }
 
 .button{
-    border:3px solid white;
+    border:1px solid white;
     border-radius:20px;
     line-height:30px;
     display:inline-block;

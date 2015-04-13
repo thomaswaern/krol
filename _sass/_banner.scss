@@ -57,7 +57,7 @@
 		line-height:1.2em;
 		font-family: 'Chewy', cursive;
 		letter-spacing: 1.2px;
-
+		
 		@include media-query($on-laptop) {
 			font-size:100px;
 		}
