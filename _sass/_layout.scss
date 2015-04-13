@@ -134,12 +134,20 @@
     padding: $spacing-unit 0;
     position:relative;
     color:white;
-    font-size:0.8em;
+    
+
+    .title{
+        font-size:30px;
+        line-height:1.2em;
+        font-family: 'Chewy', cursive;
+        letter-spacing: 1.2px;
+    }
 
     .email, .phone{
 
         display:inline-block;
         padding:0 10px;
+
 
         a, a:link, a:hover, a:visited{
             color:white;

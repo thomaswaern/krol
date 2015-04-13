@@ -29,6 +29,8 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    letter-spacing:0.02em;
+
 
     @include media-query($on-laptop) {
         font-size: $base-font-size;
