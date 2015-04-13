@@ -11,17 +11,18 @@
 	text-align:center;
 	max-height:100%;
 
-	@include media-query($on-palm) {
+	@include media-query($on-laptop) {
 		//background-size:100%;
 		background-attachment:fixed;
 		background-position:center center;
+		height:100%;
 	}
 
 	.wrapper{	
 
 		padding:15% 20% 45%;
 
-		@include media-query($on-palm) {
+		@include media-query($on-laptop) {
 			padding:15% 20% 15%;
 		}
 	}
