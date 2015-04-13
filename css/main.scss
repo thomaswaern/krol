@@ -13,7 +13,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #999;
+$text-color:       #69c2d8;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -37,7 +37,7 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media screen and (min-width: $device) {
         @content;
     }
 }

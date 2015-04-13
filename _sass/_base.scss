@@ -58,6 +58,12 @@ img {
     font-size:14px;
     text-transform: uppercase;
     color:white;
+
+    &:hover, &:active, &:focus{
+        background:rgba(255,255,255,0.2);
+        color:white;
+        text-decoration: none;
+    }
 }
 
 /**
