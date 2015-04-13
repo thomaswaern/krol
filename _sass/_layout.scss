@@ -7,6 +7,12 @@
     color:white;
     // Positioning context for the mobile navigation icon
     position: fixed;;
+    background:$text-color;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:999;
 
 }
 
@@ -17,6 +23,7 @@
     margin-bottom: 0;
     float: left;
     color:white;
+    padding:0 20px;
 
     &,
     &:visited {
