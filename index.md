@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <p>Developing value and creating the future, together with entrepreneurs, accelerators, and incubators - that’s how I spend most of my time. It’s an awesome job.</p>
+  <p>Developing value and creating the future, together with entrepreneurs, accelerators, and incubators - that’s how I spend most of my time. <br><strong>It’s an awesome job.</strong></p>
 
   <p>Great results are delivered by using well-known, powerful, smart, and fast tools of the trade for Business Development, Innovation Advisory, and Coaching.</p>
 
