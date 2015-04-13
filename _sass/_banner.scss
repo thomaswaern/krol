@@ -53,7 +53,7 @@
 	}
 
 	.banner-title{
-		font-size:70px;
+		font-size:50px;
 		line-height:1.2em;
 		font-family: 'Chewy', cursive;
 		letter-spacing: 1.2px;
@@ -76,6 +76,13 @@
 	em{
 		font-style:normal;
 		font-weight:bold;
+	}
+
+	.scrollme{
+		display:none;
+		@include media-query($on-desktop) {
+			display:inline-block;
+		}
 	}
 
 }
