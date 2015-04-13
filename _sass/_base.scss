@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Chewy);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,400|Chewy);
 
 /**
  * Reset some basic elements
@@ -9,8 +9,6 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
-
 
 /**
  * Basic styling
@@ -24,8 +22,6 @@ body {
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
