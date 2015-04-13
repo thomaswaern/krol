@@ -29,7 +29,7 @@
 			-webkit-user-select: none;
 			-webkit-touch-callout: none;  
 
-			&:hover, &.touchdown{
+			&:hover, &:active{
 				content:url("../assets/krol2.jpg");
 			}
 		}
