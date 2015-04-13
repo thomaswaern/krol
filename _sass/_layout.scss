@@ -166,7 +166,7 @@
     padding: $spacing-unit 0;
     position:relative;
     overflow-x:hidden;
-   
+    padding-bottom:90px;
     color:#aaa;
 /* 
     &:before{
@@ -187,6 +187,26 @@
             border-width: 230px 0 0 3880px;
         }
     } */
+
+    &:before{
+        content:'';
+        display:block;
+        position:absolute;
+        bottom:0;
+        left:0;
+        border-width: 90px 0 0 900px;
+        border-color: transparent transparent transparent $text-color ;
+        border-style: solid dashed solid solid;    
+    }
+
+    @include media-query($on-laptop){
+
+        padding-bottom:180px;
+        
+        &:before{
+            border-width: 120px 0 0 3800px;
+        }
+    }
 
 }
 
