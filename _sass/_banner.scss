@@ -80,7 +80,7 @@
 
 	.scrollme{
 		display:none;
-		@include media-query($on-desktop) {
+		@include media-query($on-laptop) {
 			display:inline-block;
 		}
 	}
