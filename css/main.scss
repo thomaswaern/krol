@@ -41,8 +41,6 @@ $on-desktop:       2000px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
@@ -50,5 +48,4 @@ $on-desktop:       2000px;
         "syntax-highlighting",
         "home",
         "banner",
-        "followme"
-;
+        "followme";
