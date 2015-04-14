@@ -12,7 +12,7 @@ layout: default
   <div class="me">
     <img src="{{ site.baseurl }}/assets/krol.jpg" alt="Kristoffer Olsson">
     <h4 class="name">Kristoffer Olsson</h4>
-    <h4>- founder of StartDevelUp</h4>
+    <h4>- Founder of StartDevelUp</h4>
   </div>
 
 </div>
