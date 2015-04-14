@@ -1,9 +1,8 @@
 # Site settings
 title: StartDevelUp
 email: hello@startdevelup.com
-
-description: > # this means to ignore newlines until "baseurl:"
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum id quas inventore ducimus doloremque, natus sequi necessitatibus nulla in. Fugiat nihil est ipsam! Eum, ipsum, nihil. Veritatis, labore, repellendus.
+description: >
+  Developing value and creating the future, together with entrepreneurs, accelerators, and incubators - that’s how I spend most of my time. It’s an awesome job.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://startdevelup.com" # the base hostname & protocol for your site
 linkedin_username: kristofferolsson
