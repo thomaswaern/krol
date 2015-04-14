@@ -4,7 +4,7 @@ email: hello@startdevelup.com
 linkedin: https://se.linkedin.com/in/kristofferolsson
 description: > # this means to ignore newlines until "baseurl:"
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum id quas inventore ducimus doloremque, natus sequi necessitatibus nulla in. Fugiat nihil est ipsam! Eum, ipsum, nihil. Veritatis, labore, repellendus.
-baseurl: "/krol" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://startdevelup.com" # the base hostname & protocol for your site
 twitter_username:
 
