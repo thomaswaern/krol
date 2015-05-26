@@ -64,10 +64,25 @@
 
 </header>
 
-<section class="banner">
+    {% if page.image %}
+
+
+<section class="banner" style="background-image:url({{site.baseurl}}/images/{{page.image}})">
   <div class="wrapper">
+    <h1 class="banner-title">{{page.title}}</h1>
+    <h3 class="subject">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h3>
+  </div>
+</section>
+      
+
+    {% else %}
+
+<section class="banner default">
+  <div class="wrapper">
+    <img class="beardless" src="{{ site.baseurl }}/assets/krol.jpg" alt="Kristoffer Olsson">
     <h1 class="banner-title">Hi, I'm Kristoffer</h1>
     <h3 class="subject">{{site.description}}</h3>
+
     <div class="scrollme">
       <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.2 (9964) - http://www.bohemiancoding.com/sketch -->
@@ -84,3 +99,5 @@
   </div>
   
 </section>
+
+{% endif %}

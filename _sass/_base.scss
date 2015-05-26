@@ -63,7 +63,7 @@ img {
     font-size:14px;
     font-weight:100;
 
-    color:$text-color;
+    color:$brand-color;
 
     &:hover, &:active, &:focus{
         background:rgba(255,255,255,0.4);
@@ -185,6 +185,7 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    
     @extend %clearfix;
 
     @include media-query($on-laptop) {
