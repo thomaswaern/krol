@@ -9,7 +9,7 @@ While there are many highly successful projects making the headlines (perhaps mo
 
 Some of the examples I’ve found over the last couple of years (that many seem to overlook):
 
-1. A lot of projects probably would benefit from setting their **goals lower and using stretch goals** to push the backing further (related to your original product). [Here’s](https://www.kickstarter.com/projects/cabinetentertainment/simon-stalenhags-tales-from-the-loop){:target="_blank"} a current example of a creative project hugely exceeding its ‘original’ goal of $10.000, by about 2600%.
+1. A lot of projects probably would benefit from setting their **goals lower and using stretch goals** to push the backing further (related to your original product). [Here’s](https://www.kickstarter.com/projects/cabinetentertainment/simon-stalenhags-tales-from-the-loop) a current example of a creative project hugely exceeding its ‘original’ goal of $10.000, by about 2600%.
 
 2. **Prepare for a lot of hard (but rewarding) work!** The amount of work that goes into a successful campaign (before, during, and after) is probably longer than most initially expect.
 
@@ -21,10 +21,10 @@ My next post will probably be about the somewhat related topic of viral videos.
 
 Here are some nice sources, in case you want to dig deeper into today’s topic:
 
-[Kickstarter Stats](https://www.kickstarter.com/help/stats){:target="_blank"}
+[Kickstarter Stats](https://www.kickstarter.com/help/stats)
 
-[How to Kickstarter](http://www.studioneat.com/blogs/main/17250808-how-to-kickstarter){:target="_blank"}
+[How to Kickstarter](http://www.studioneat.com/blogs/main/17250808-how-to-kickstarter)
 
-[Ultimate Tips for Relaunching a Kickstarter Campaign](http://www.crowdcrux.com/ultimate-tips-for-relaunching-a-kickstarter-campaign/){:target="_blank"}  
+[Ultimate Tips for Relaunching a Kickstarter Campaign](http://www.crowdcrux.com/ultimate-tips-for-relaunching-a-kickstarter-campaign/)
 
-[8 Ways to Make Your Crowdfunding Campaign Pop](http://www.entrepreneur.com/article/233876){:target="_blank"}
+[8 Ways to Make Your Crowdfunding Campaign Pop](http://www.entrepreneur.com/article/233876)
