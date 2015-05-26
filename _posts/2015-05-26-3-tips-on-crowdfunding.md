@@ -1,5 +1,5 @@
 ---
-image: shutterstock_226500079.jpg
+image: http://startdevelup.com/images/shutterstock_226500079.jpg
 ---
 
 I remember finding Kickstarter for the first time (the project: Revolights). I was blown away! The fact that small, as well as big, creative projects now are able to receive funding and feedback etc from its world wide (!) audience has been proven over and over, and over, again by Kickstarter and its fellow platforms.
