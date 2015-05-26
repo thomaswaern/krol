@@ -10,8 +10,8 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-  <meta name="image_src" content="http://guarenty-group.com/img/gg_seal.png" />
-  <meta name="image_url" content="http://guarenty-group.com/img/gg_seal.png" />
+  <meta name="image_src" content="{% if page.image %}{{page.image}}{% else %}{{ site.baseurl }}http://startdevelup.com/assets/krol.jpg{% endif %}" />
+  <meta name="image_url" content="{% if page.image %}{{page.image}}{% else %}{{ site.baseurl }}http://startdevelup.com/assets/krol.jpg{% endif %}" />
   
   <meta property="fb:admins" content="534051035,100000308084642" /> 
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
