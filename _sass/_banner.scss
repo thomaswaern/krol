@@ -45,9 +45,12 @@
 	    
 	}
 
-	@include media-query($on-desktop) {
+	@include media-query(1000px) {
 		background-size:100%;
 		background-position:center bottom;
+		&.default{
+			background-position:center bottom;
+		}
 
 	}
 
