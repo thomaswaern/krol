@@ -6,6 +6,8 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://startdevelup.com" # the base hostname & protocol for your site
 linkedin_username: kristofferolsson
+paginate_path: "/page:num/"
+paginate: 1
 defaults:
   -
     scope:

@@ -2,6 +2,7 @@
 title: About
 permalink: /about/
 layout: default
+weight: 1
 ---
 Great results are delivered by using well-known, powerful, smart, and fast tools of the trade for Business Development, Innovation Advisory, and Coaching.
 

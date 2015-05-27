@@ -4,6 +4,7 @@
 .site-header {
 
     min-height: 56px;
+    background:$brand-color;
     color:white;
     // Positioning context for the mobile navigation icon
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -11,14 +12,14 @@
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;     /* NEW - Chrome */
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    background:$brand-color;
+    //background:$brand-color;
     position:fixed;
     top:0;
     left:0;
     right:0;
     z-index:999;
     height:40px;
-    box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+    //box-shadow: 0 4px 5px rgba(0,0,0,0.3);
 
     @include media-query($on-laptop) {
         height:70px;
@@ -61,7 +62,7 @@
 
     &:hover,
     &:visited {
-        color: white;
+        color:white;
     }
     
     @include media-query($on-palm) {
@@ -265,10 +266,10 @@ nav[role="navigation"]{
     @include media-query($on-laptop){
 
         padding-bottom:180px;
-        
-        &:before{
-            border-width: 120px 0 0 3800px;
-        }
+              &:before{
+
+            border-width: 110px 0 0 3800px;
+        }  
     }
 
 }
@@ -281,21 +282,22 @@ nav[role="navigation"]{
     margin-left: 0;
     list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+
 }
 
 
 .post-item{
 
+    text-align:center;
 
-
-    >figure img{
+    figure img{
         border-radius:50%;
         width:200px;
         height:200px;
     }
+
+    margin-bottom: $spacing-unit *3;
+    overflow:hidden;
 }
 
 .post-meta {
@@ -305,7 +307,8 @@ nav[role="navigation"]{
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 34px;
+    font-family: 'Chewy', cursive;
 }
 
 
