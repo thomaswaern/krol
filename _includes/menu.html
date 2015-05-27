@@ -1,0 +1,17 @@
+<nav role="navigation">
+
+	{% for node in site.pages %}
+		
+		{% if node.title %}
+
+	    {% if page.url == node.url %}
+	   	<a href="{{node.url}}" class="is-active">{{node.title}}</a>
+	    {% else %}
+	     <a href="{{node.url}}">{{node.title}}</a>
+	    {% endif %}
+
+		{% endif %}
+
+	  {% endfor %}
+
+</nav>

@@ -1,19 +1,38 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="home">
+<div class="blog">
 
-  <p>Great results are delivered by using well-known, powerful, smart, and fast tools of the trade for Business Development, Innovation Advisory, and Coaching.</p>
+  <ul class="post-list">
 
-  <p>The secret sauce? A highly creative and structured mind, focused on developing services and products that people really need.</p>
-
-
-  <div class="me">
+    {% for post in site.posts %}
     
-    <h4 class="name">Kristoffer Olsson</h4>
-    <h4>- Founder of StartDevelUp</h4>
-  </div>
+      <li class="post-item">
+
+      	{% if post.image %}
+
+		<figure>
+			<img src="{{post.image}}" alt="{{post.title}}">
+		</figure>
+		      
+    	{% endif %}
+
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+
+        <p>{{post.excerpt}}</p>
+
+        <a href="{{site.url}}{{post.url}}">Read more</a>
+
+      </li>
+
+    {% endfor %}
+
+  </ul>
 
 </div>
-
