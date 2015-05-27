@@ -114,6 +114,35 @@ nav[role="navigation"]{
     }
 }
 
+.me{
+        text-align: left;
+        padding: 10px 0 0;
+        color:$brand-color;
+        font-size:15px;
+
+        .name{
+            font-weight:bold;
+            font-size:18px;
+            margin-bottom: 0;
+        }
+
+        img, img:active, img:focus{
+            border-radius:50%;
+            width:180px;
+            height:180px;
+            border:10px solid darken($background-color, 4%);
+            margin-bottom:20px;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;  
+
+            &:hover{
+                content:url("../assets/krol2.jpg");
+            }
+        }
+
+    
+    }
+
 .site-nav {
     float: right;
     line-height: 56px;
