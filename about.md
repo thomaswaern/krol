@@ -10,6 +10,5 @@ The secret sauce? A highly creative and structured mind, focused on developing s
 
 <div class="me">
 <h4 class="name">Kristoffer Olsson</h4>
-<h4>- Creative Business Developer & Founder</h4>
-<h4>- StartDevelUp</h4>
+<h4> Creative Business Developer & Founder<br> StartDevelUp</h4>
 </div>
