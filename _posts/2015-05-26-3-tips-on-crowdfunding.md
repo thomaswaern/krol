@@ -1,5 +1,6 @@
 ---
 image: http://startdevelup.com/images/shutterstock_226500079.jpg
+title: 3 tips on crowdfunding
 ---
 
 I remember finding Kickstarter for the first time (the project: Revolights). I was blown away! The fact that small, as well as big, creative projects now are able to receive funding and feedback etc from its world wide (!) audience has been proven over and over, and over, again by Kickstarter and its fellow platforms.
@@ -24,6 +25,6 @@ Here are some nice sources, in case you want to dig deeper into today’s topic:
 
 [How to Kickstarter](http://www.studioneat.com/blogs/main/17250808-how-to-kickstarter)
 
-[Ultimate Tips for Relaunching a Kickstarter Campaign](http://www.crowdcrux.com/ultimate-tips-for-relaunching-a-kickstarter-campaign/)  
+[Ultimate Tips for Relaunching a Kickstarter Campaign](http://www.crowdcrux.com/ultimate-tips-for-relaunching-a-kickstarter-campaign/)
 
 [8 Ways to Make Your Crowdfunding Campaign Pop](http://www.entrepreneur.com/article/233876)
