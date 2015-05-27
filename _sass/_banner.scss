@@ -45,11 +45,11 @@
 	    
 	}
 
-	@include media-query(1000px) {
+	@include media-query(1200px) {
 		background-size:100%;
 		background-position:center bottom;
 		&.default{
-			background-position:center bottom;
+			background-position:center center;
 		}
 
 	}
