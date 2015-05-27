@@ -8,10 +8,7 @@ Great results are delivered by using well-known, powerful, smart, and fast tools
 
 The secret sauce? A highly creative and structured mind, focused on developing services and products that people really need.
 
-Kristoffer Olsson
-- Creative Business Developer & Founder of StartDevelUp
-
 <div class="me">
 <h4 class="name">Kristoffer Olsson</h4>
-<h4>- founder of StartDevelUp</h4>
+<h4>- Creative Business Developer & Founder of StartDevelUp</h4>
 </div>
