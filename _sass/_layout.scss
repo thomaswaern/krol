@@ -62,8 +62,9 @@
     padding:0 20px;
     
     svg{
-        text{
-            display:none;
+        #text{
+            transform-origin: top left;
+            transform:scale(0.5) translate(230px, 140px);
         }
     }
 
@@ -78,8 +79,8 @@
     
     @include media-query(350px) {
         svg{
-            text{
-                display:inherit;
+            #text{
+            transform:scale(1) translate(120px, 50px);
             }
         }
     }
