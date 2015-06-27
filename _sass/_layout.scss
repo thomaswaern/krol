@@ -51,46 +51,62 @@
 
 .site-title {
     font-size: 20px;
-    
     letter-spacing: 2px;
     margin-bottom: 0;
-    float: left;
+    position:absolute;
+    left:0px;
+    top:0;
     color:white;
+    display:inline-block;
+    line-height:56px;
+    padding:0 20px;
     
-    font-family: 'Chewy', sans-serif;
-    
+    svg{
+        text{
+            display:none;
+        }
+    }
 
     &:hover,
     &:visited {
         color:white;
     }
+
+    img, svg{
+        height:40px;
+    }
     
-    @include media-query($on-palm) {
-        font-size: 28px;
+    @include media-query(350px) {
+        svg{
+            text{
+                display:inherit;
+            }
+        }
+    }
+
+    @include media-query($on-laptop) {
+        left:0px;
+        top:5px;
+        svg{
+
+            height:50px;
+           
+        }
     }
 }
 
 nav[role="navigation"]{
 
-    text-align:center;
-    text-transform:uppercase;
-    margin-bottom:2em;
     font-size:16px;
     
     a, a:visited{
+        color:$brand-color-secondary;
         display:inline-block;
-        padding:0 2em;
-        margin:0 -5px 0 0;
-        color:#bbb;
-        border-bottom:3px solid #bbb;
-
-        &:hover, &:focus{
-            text-decoration:none;
-        }
+        padding:0 10px;
 
         &.is-active{
-            border-bottom:3px solid $brand-color;
-            color:$brand-color;
+            color:white;
+            text-decoration: underline;
         }
     }
 
@@ -143,10 +159,13 @@ nav[role="navigation"]{
     }
 
 .site-nav {
-    float: right;
+
+    position: absolute;
+    top: 0px;
+    right: 10px;
     line-height: 56px;
     color:white;
-
+    display:inline-block;
 
     .menu-icon {
         display: none;
@@ -154,7 +173,8 @@ nav[role="navigation"]{
 
     .page-link {
         color: white;
-        line-height: $base-line-height;
+        font-size:11px;
+        //line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -163,12 +183,8 @@ nav[role="navigation"]{
     }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border-radius: 5px;
-        text-align: right;
+        
+
 
         .menu-icon {
             display: block;
@@ -204,6 +220,10 @@ nav[role="navigation"]{
             padding: 5px 10px;
         }
     }
+
+     @include media-query($on-laptop) {
+        line-height: 70px;
+     }
 }
 
 
@@ -213,7 +233,7 @@ nav[role="navigation"]{
  */
 .site-footer {
     text-align: center;
-    background:$brand-color;
+    background:$brand-color-secondary;
     padding: $spacing-unit 0;
     position:relative;
     color:white;
@@ -291,7 +311,7 @@ nav[role="navigation"]{
         bottom:0;
         left:0;
         border-width: 90px 0 0 900px;
-        border-color: transparent transparent transparent $brand-color ;
+        border-color: transparent transparent transparent $brand-color-secondary ;
         border-style: solid dashed solid solid;    
     }
 
@@ -313,6 +333,7 @@ nav[role="navigation"]{
 .post-list {
     margin-left: 0;
     list-style: none;
+    
 
 
 }
@@ -337,9 +358,10 @@ nav[role="navigation"]{
     color: $grey-color;
 }
 
-.post-link {
+.post-link, .post-link:visited {
     display: block;
     font-size: 34px;
+    color:$brand-color-secondary;
     font-family: 'Chewy', cursive;
 }
 
